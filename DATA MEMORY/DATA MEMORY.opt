@@ -6,8 +6,8 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59414;
-  Bar[2]:=59415;
+  Bar[1]:=59415;
+  Bar[2]:=59414;
   Bar[3]:=59416;
   Bar[4]:=59412;
   Bar[5]:=0;
@@ -77,19 +77,19 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="1 5";
+  Pos:="687 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1366 185";
+  MRUDockPos:="687 5 1366 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1365 180";
+  MRUHorzDock:="679 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,19 +127,20 @@ BEGIN
  BEGIN
   BarID:=59413;
   Pos:="0 -2";
+  MRUWidth:=1374;
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 300 546";
+  MRUDockPos:="0 -2 229 546";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="48 160";
   Style:=8084;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="1000000";
-  MRUFloat:="300 180";
+  MRUFloat:="1374 570";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 548";
+  MRUVertDock:="229 548";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -154,16 +155,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1366 185";
+  MRUDockPos:="1 5 681 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="1000000";
+  PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1365 180";
+  MRUHorzDock:="680 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -179,11 +180,11 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
+ Item[2]:=12;
+ Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=43;
- Selected:=18;
+ Selected:=17;
 END;
 Frame[0]:=
 BEGIN
@@ -196,7 +197,8 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=70;
+   Yscroll:=12;
+   Mag:=80;
   END;
   nViews:=1;
  END;
